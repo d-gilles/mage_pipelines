@@ -1,3 +1,2 @@
-cd ..
-apt-get update
+touch hereiam.txt
 
