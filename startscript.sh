@@ -4,9 +4,9 @@ apt-get update && apt-get install -y git openssh-client
 mkdir -p ~/.ssh
 ssh-keyscan github.com >> ~/.ssh/known_hosts
 
-rm -rf scr 
+rm -rf src 
 git clone https://github.com/d-gilles/mage_pipelines.git
-mv mage_pipelines scr
+mv mage_pipelines src
 
 cd scr
 pip install --upgrade pip
