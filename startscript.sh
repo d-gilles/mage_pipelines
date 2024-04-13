@@ -9,4 +9,5 @@ git clone https://github.com/d-gilles/mage_pipelines.git
 mv mage_pipelines scr
 
 cd scr
+pip install --upgrade pip
 pip install -r requirements.txt
