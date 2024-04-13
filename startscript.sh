@@ -1,2 +1,3 @@
+touch startpoint
 cd ..
 
