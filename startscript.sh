@@ -1,8 +1,6 @@
 cd ..
 
-apt-get update && apt-get install -y git openssh-client
-mkdir -p ~/.ssh
-ssh-keyscan github.com >> ~/.ssh/known_hosts
+apt-get update
 
 rm -rf src 
 git clone https://github.com/d-gilles/mage_pipelines.git
